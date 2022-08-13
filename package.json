@@ -1,0 +1,39 @@
+{
+  "name": "react-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./start/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackajin/react-components.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackajin/react-components/issues"
+  },
+  "homepage": "https://github.com/jackajin/react-components#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "commander": "^9.4.0",
+    "cross-spawn": "^7.0.3",
+    "crypto-browserify": "^3.12.0",
+    "html-webpack-plugin": "^5.5.0",
+    "inquirer": "^9.1.0",
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpackbar": "^5.0.2"
+  },
+  "browser": {
+    "crypto": false
+  }
+}
